@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Canvas drawing</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="canvasPaint.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="jscolor/jscolor.js"></script>
+<script type="text/javascript" src="underscore.js"></script>
+<script type="text/javascript" src="canvasPaint.js"></script>
+</head>
+
+<body id="pixel_painter">
+<div id="top" class="clearfix">
+		<div class="logo">canvasPaint, the simple painting prototype.</div>
+		<div class="panel">
+		<div>Color (click & pick): <input id="colorPicker" class="color" type="text" autocomplete="off" value="000000" ></div>
+		<div>Brush (px): <input class="size" value="30" type="text"></div>
+		<div><input class="eraser" type="button" value="Eraser"></div>
+		<div><input class="clear_canvas" type="button" value="Clear canvas"></div>
+		<div><a href="#" id="canvasImg">Download painting</a></div>
+	</div>    
+</div>
+<div id="canvas_h">
+	<canvas id="canvas"></canvas>
+</div>
+
+<div class="footer">
+  
+  </div>
+</body>
+</html>
